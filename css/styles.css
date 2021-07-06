@@ -131,19 +131,19 @@ body {
 .our-team {
   background-color: var(--tertiary-background-color);
 }
-.our-team-title {
+.team-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
 }
-.our-team-item-title {
+.team-item-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.our-team-item-text {
+.team-item-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
