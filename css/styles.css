@@ -197,13 +197,13 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.our-works-item-title {
+.works-item-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.our-works-item-text {
+.works-item-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
