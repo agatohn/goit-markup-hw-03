@@ -74,6 +74,11 @@ body {
   outline: 2px solid tomato;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* header styles */
 
 .header {
@@ -182,12 +187,12 @@ body {
 
 .features-list {
   display: flex;
-  margin-right: -30px;
+  margin-left: -30px;
 }
 
 .features-item {
   flex-basis: calc(100% / 4) -30px;
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .features-item-title {
@@ -263,12 +268,12 @@ body {
 
 .team-list {
   display: flex;
-  margin-right: -30px;
+  margin-left: -30px;
 }
 
 .team-item {
   flex-basis: calc(100% / 4) - 30px;
-  margin-right: 30px;
+  margin-left: 30px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -332,11 +337,14 @@ body {
 
 .footer-links .link {
   display: block;
-  margin-bottom: 9px;
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.footer-links .contact-link:first-child {
+  margin-bottom: 9px;
 }
 
 .footer-links .link:hover, .footer-links .link:focus {
@@ -345,24 +353,70 @@ body {
 
 /* portfolio section */
 
-.filters-list {
-  display: flex;
-} 
-.filters-button {
+.btn-alt {
+  padding: 6px 22px;
+  display: block;
+  color: var(--primary-text-color);
   background-color: var(--tertiary-background-color);
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.filters-button:hover, .filters-button:focus {
+.filters {}
+
+.filters-list {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  margin-left: -8px;
+  justify-content: center;
+}
+
+.filters-btn {
+  flex-basis: content;
+  margin-left: 8px;
+}
+
+.filters-btn:hover, .filters-btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
 
+.filters-list {
+  justify-content: center;
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.works-item {
+  background: #FFFFFF;
+  flex-basis: calc(100% / 3) - 30px;
+  /* max-width: 370px; */
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.works-text-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border: 1px solid #EEEEEE;
+}
+
 .works-item-title {
+  margin-bottom: 9px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
