@@ -345,6 +345,9 @@ body {
 
 /* portfolio section */
 
+.filters-list {
+  display: flex;
+} 
 .filters-button {
   background-color: var(--tertiary-background-color);
   font-family: Roboto, sans-serif;
